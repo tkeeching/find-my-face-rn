@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { StatusBar } from "expo-status-bar";
 import { Text, TextInput, View } from "react-native";
-import GlobalStyle from "./style";
+import GlobalStyle from './style';
 
 const App = () => {
   const [name, setName] = useState("");
